@@ -1,0 +1,200 @@
+---
+  0 info pnpm: 
+    message: "A store server is running. All store manipulations are delegated to it."
+    prefix: "/app"
+  1 debug pnpm:package-json: 
+    initial: 
+      name: "hello-lit-element"
+      version: "0.0.1"
+      description: "Sample-lit-element"
+      scripts: 
+        start: "polymer serve --module-resolution=node"
+      dependencies: 
+        @GoogleWebComponents/model-element: "^0.0.1"
+        @webcomponents/webcomponentsjs: "latest"
+        intersection-observer: "^0.5.1"
+        resize-observer-polyfill: "^1.5.0"
+      engines: 
+        node: "8.x"
+      gitHead: "f3c48862691cded947a222b69145495d5fb6f4e0"
+      readme: "ERROR: No README data found!"
+      _id: "hello-lit-element@0.0.1"
+    prefix: "/app"
+  2 debug pnpm:stage: "resolution_started"
+  3 debug pnpm:progress: 
+    pkg: 
+      name: "@GoogleWebComponents/model-element"
+      rawSpec: "@GoogleWebComponents/model-element@^0.0.1"
+    status: "installing"
+  4 debug pnpm:progress: 
+    pkg: 
+      name: "@webcomponents/webcomponentsjs"
+      rawSpec: "@webcomponents/webcomponentsjs@latest"
+    status: "installing"
+  5 debug pnpm:progress: 
+    pkg: 
+      name: "intersection-observer"
+      rawSpec: "intersection-observer@^0.5.1"
+    status: "installing"
+  6 debug pnpm:progress: 
+    pkg: 
+      name: "resize-observer-polyfill"
+      rawSpec: "resize-observer-polyfill@^1.5.0"
+    status: "installing"
+  7 debug pnpm:progress: 
+    pkgId: "registry.npmjs.org/@webcomponents/webcomponentsjs/2.1.1"
+    pkgVersion: "2.1.1"
+    status: "downloaded_manifest"
+  8 debug pnpm:progress: 
+    pkgId: "registry.npmjs.org/@webcomponents/webcomponentsjs/2.1.1"
+    status: "resolving_content"
+  9 debug pnpm:progress: 
+    pkgId: "registry.npmjs.org/resize-observer-polyfill/1.5.0"
+    pkgVersion: "1.5.0"
+    status: "downloaded_manifest"
+  10 debug pnpm:progress: 
+    pkgId: "registry.npmjs.org/intersection-observer/0.5.1"
+    pkgVersion: "0.5.1"
+    status: "downloaded_manifest"
+  11 debug pnpm:progress: 
+    pkgId: "registry.npmjs.org/resize-observer-polyfill/1.5.0"
+    status: "resolving_content"
+  12 debug pnpm:progress: 
+    pkgId: "registry.npmjs.org/intersection-observer/0.5.1"
+    status: "resolving_content"
+  13 debug pnpm:progress: 
+    pkgId: "registry.npmjs.org/@webcomponents/webcomponentsjs/2.1.1"
+    status: "found_in_store"
+  14 debug pnpm:progress: 
+    pkgId: "registry.npmjs.org/resize-observer-polyfill/1.5.0"
+    status: "found_in_store"
+  15 debug pnpm:progress: 
+    pkgId: "registry.npmjs.org/intersection-observer/0.5.1"
+    status: "found_in_store"
+  16 error pnpm: 
+    message: "404 Not Found: @GoogleWebComponents/model-element (via https://registry.npmjs.org/@GoogleWebComponents%2Fmodel-element)"
+    code: "ERR_PNPM_REGISTRY_META_RESPONSE_404"
+    uri: "https://registry.npmjs.org/@GoogleWebComponents%2Fmodel-element"
+    response: 
+      body: 
+        _readableState: 
+          objectMode: false
+          highWaterMark: 16384
+          buffer: 
+            head: 
+              data: 
+                type: "Buffer"
+                data: 
+                  - 123
+                  - 34
+                  - 101
+                  - 114
+                  - 114
+                  - 111
+                  - 114
+                  - 34
+                  - 58
+                  - 34
+                  - 78
+                  - 111
+                  - 116
+                  - 32
+                  - 102
+                  - 111
+                  - 117
+                  - 110
+                  - 100
+                  - 34
+                  - 125
+              next: null
+            tail: 
+              data: 
+                type: "Buffer"
+                data: 
+                  - 123
+                  - 34
+                  - 101
+                  - 114
+                  - 114
+                  - 111
+                  - 114
+                  - 34
+                  - 58
+                  - 34
+                  - 78
+                  - 111
+                  - 116
+                  - 32
+                  - 102
+                  - 111
+                  - 117
+                  - 110
+                  - 100
+                  - 34
+                  - 125
+              next: null
+            length: 1
+          length: 21
+          pipes: null
+          pipesCount: 0
+          flowing: null
+          ended: true
+          endEmitted: false
+          reading: false
+          sync: false
+          needReadable: false
+          emittedReadable: true
+          readableListening: false
+          resumeScheduled: false
+          destroyed: false
+          defaultEncoding: "utf8"
+          awaitDrain: 0
+          readingMore: false
+          decoder: null
+          encoding: null
+        readable: true
+        domain: null
+        _events: {}
+        _eventsCount: 2
+        _writableState: 
+          objectMode: false
+          highWaterMark: 16384
+          finalCalled: false
+          needDrain: false
+          ending: true
+          ended: true
+          finished: true
+          destroyed: false
+          decodeStrings: true
+          defaultEncoding: "utf8"
+          length: 0
+          writing: false
+          corked: 0
+          sync: false
+          bufferProcessing: false
+          writecb: null
+          writelen: 0
+          bufferedRequest: null
+          lastBufferedRequest: null
+          pendingcb: 0
+          prefinished: true
+          errorEmitted: false
+          bufferedRequestCount: 0
+          corkedRequestsFree: 
+            next: null
+            entry: null
+        writable: false
+        allowHalfOpen: true
+        _transformState: 
+          needTransform: false
+          transforming: false
+          writecb: null
+          writechunk: null
+          writeencoding: "buffer"
+      size: 0
+      timeout: 0
+      url: "https://registry.npmjs.org/@GoogleWebComponents%2Fmodel-element"
+      status: 404
+      statusText: "Not Found"
+      headers: {}
+    package: "@GoogleWebComponents/model-element"
