@@ -1,7 +1,7 @@
 # Web AR: Displaying 3D Models on your browser
 ![banner](https://raw.githubusercontent.com/lightlessdays/remotehost/main/galaxyshooter2d/Your%20paragraph%20text.png)
 
-Web AR Repository allows you to render your 3D GLB models straight in your browser. To render your own models, follow the steps-
+Web AR Repository allows you to render your 3D GLB/USDZ models straight in your browser. To render your own models, follow the steps-
 
 1. Fork/Clone this repository.
 2. Upload your .glb or .usdz model in your github repo.
