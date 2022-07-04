@@ -1,2 +1,2 @@
 # Web AR: Displaying 3D Models on your browser
-
+Web-based augmented reality (WebAR) is a technology that allows users to access AR experiences directly from their smartphones. As there’s no need for any downloading, people can enjoy the immersive and unique experience of AR on-demand, on most operating systems, mobile devices, and web browser. By the end of this article, you will have your own WebAR application, deployed and ready to be shared.
