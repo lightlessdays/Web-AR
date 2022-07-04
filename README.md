@@ -1,2 +1,16 @@
 # Web AR: Displaying 3D Models on your browser
-Web-based augmented reality (WebAR) is a technology that allows users to access AR experiences directly from their smartphones. As there’s no need for any downloading, people can enjoy the immersive and unique experience of AR on-demand, on most operating systems, mobile devices, and web browser. By the end of this article, you will have your own WebAR application, deployed and ready to be shared.
+![banner](https://raw.githubusercontent.com/lightlessdays/remotehost/main/galaxyshooter2d/Your%20paragraph%20text.png)
+
+Web AR Repository allows you to render your 3D GLB models straight in your browser. To render your own models, follow the steps-
+
+1. Fork/Clone this repository.
+2. Upload your .glb or .usdz model in your github repo.
+3. In index.html file, on line 22, you will notice the following lines-
+```
+<model-viewer src="Astronaut.glb"                  
+ios-src="Astronaut.usdz"
+```
+4. Replace Astronaut.glb / Astronaut.usdz with name of your own .glb / .usdz model.
+5. Publish your website on GitHub Pages.
+
+For detailed tutorial, [click here](https://medium.com/@lightlessdays/how-to-create-and-deploy-your-own-webar-within-5-minutes-4aa2e0278b81).
