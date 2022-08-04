@@ -5,7 +5,7 @@ Web AR Repository allows you to render your 3D GLB/USDZ models straight in your 
 
 1. Fork/Clone this repository.
 2. Upload your .glb or .usdz model in your github repo.
-3. In index.html file, on line 22, you will notice the following lines-
+3. In index.html file, on line 12, you will notice the following lines-
 ```
 <model-viewer src="Astronaut.glb"                  
 ios-src="Astronaut.usdz"
