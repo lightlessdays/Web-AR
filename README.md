@@ -12,5 +12,3 @@ ios-src="Astronaut.usdz"
 ```
 4. Replace Astronaut.glb / Astronaut.usdz with name of your own .glb / .usdz model.
 5. Publish your website on GitHub Pages. To view the GitHub page for this repository, [click here](https://lightlessdays.github.io/web-ar).
-
-For detailed tutorial, [click here](https://lightlessdays.medium.com/how-to-create-and-deploy-your-own-webar-within-5-minutes-4aa2e0278b81?source=friends_link&sk=dc2bd6b438496a9cc38e6b9d95656083).
